@@ -9,10 +9,10 @@ const isDev = !isProd;
 module.exports = {
   context: path.resolve(__dirname, 'source'),
   mode: 'development',
-  entry: {
-    main: './js/main.js',
-    vendor: './js/vendor.js',
-  },
+  // entry: {
+  //   main: './js/main.js',
+  //   vendor: './js/vendor.js',
+  // },
   devtool: isDev ? 'source-map' : false,
   output: {
     filename: '[name].min.js',

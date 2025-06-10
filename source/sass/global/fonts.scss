@@ -1,13 +1,3 @@
-// @font-face {
-//   font-style: normal;
-//   font-weight: 400;
-//   font-family: "Rouble";
-
-//   font-display: swap;
-//   src:
-//     url("../fonts/rouble.woff2") format("woff2");
-// }
-
 @font-face {
   font-style: normal;
   font-weight: 400;
@@ -15,4 +5,58 @@
 
   font-display: swap;
   src: url("../fonts/.woff2") format("woff2");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "geometria-regular";
+
+  font-display: swap;
+  src: url("../fonts/geometria-regular.woff") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "geometria-regular";
+
+  font-display: swap;
+  src: url("../fonts/geometria-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 500;
+  font-family: "geometria-medium";
+
+  font-display: swap;
+  src: url("../fonts/geometria-medium.woff") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 500;
+  font-family: "geometria-medium";
+
+  font-display: swap;
+  src: url("../fonts/geometria-medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 900;
+  font-family: "gothampro-black";
+
+  font-display: swap;
+  src: url("../fonts/gothampro-black.woff") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 900;
+  font-family: "gothampro-black";
+
+  font-display: swap;
+  src: url("../fonts/gothampro-black.woff2") format("woff2");
 }

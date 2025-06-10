@@ -1,13 +1,19 @@
 .header {
-  padding: 28px 0;
+  padding: 80px 0 56px;
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
 
-  background-color: $color-neon-blue;
+  background-color: transparent;
+  color: white;
 
   .container {
     display: flex;
   }
+}
 
-  &__logo {
-    color: $color-default-white;
+@media (max-width: 767px) {
+  .header {
+    padding-top: 120px;
   }
 }
