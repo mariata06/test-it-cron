@@ -211,6 +211,7 @@
 
   .main-screen__social {
     margin-top: 180px;
+    margin-top: auto;
   }
   .main-screen__bg-1,
   .main-screen__bg-6 {
@@ -276,11 +277,14 @@
     padding-bottom: 40px;
   }
   .main-screen__social {
-    margin-top: 140px;
+    // margin-top: 140px;
   }
 }
 
 @media (max-width: 767px) {
+  .main-screen {
+    min-height: 100vh;
+  }
   .main-screen__text {
     margin-top: 330px;
   }
@@ -294,7 +298,8 @@
     height: 40px;
   }
   .main-screen__social {
-    margin-top: 200px;
+    margin-top: 120px;
+    margin-top: auto;
   }
 
   .main-screen__bg-2 {
